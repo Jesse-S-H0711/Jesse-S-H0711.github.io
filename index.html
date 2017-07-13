@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-  <title>Jesse Hall</title>
+  <title>Year Up Sea Life Conservation</title>
       <script src="/assets/jquery.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
   <style>
@@ -32,6 +32,7 @@
       background-position: center;
       color: white;
       font-family: helvetica;
+      
     }
     img {
       margin: 40px 0px 0px 0px;
@@ -41,12 +42,8 @@
     
       p {
         font-size: 22px;
-        border: 7px solid white;
-        border-radius: 20px;
-        background-size: cover;
-        background-image: url("http://kids.nationalgeographic.com/content/dam/kids/photos/animals/Fish/A-G/clown-anemonefish-tentacles.ngsversion.1470600539619.adapt.1900.1.jpg");
-        : blue;
       }
+      
     input {
       border: 0;
       padding: 10px;
@@ -56,10 +53,33 @@
       background: blue;
       color: white;
     }
+
+    .Marinelife{
+      background-image: url("http://kids.nationalgeographic.com/content/dam/kids/photos/animals/Fish/A-G/clown-anemonefish-tentacles.ngsversion.1470600539619.adapt.1900.1.jpg");
+      border: 7px solid white;
+        border-radius: 20px;
+        padding: 50px;
+    }
+
+    .Conservation{
+      background-image: url("https://s-media-cache-ak0.pinimg.com/originals/e1/60/d2/e160d291efcd0bccd07aee01f6243b19.jpg");
+      color:blue;
+      border: 7px solid white;
+        border-radius: 20px;
+        padding: 50px;
+      }
+
+      .Resources{
+        background-image: url("http://sunsetproperties.typepad.com/.a/6a00d834b1fa9353ef01a3fd1ff07c970b-pi");
+        border: 7px solid white;
+          border-radius: 20px;
+          padding: 50px;
+          color: red;
+      }
   </style>
 </head>
 <body>
-  <img src="https://image.ibb.co/naizck/Profile.jpg" width="200">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/California_sea_lion_in_La_Jolla_%2870568%29.jpg/250px-California_sea_lion_in_La_Jolla_%2870568%29.jpg" width="200">
    <h1> Jesse's Marine Wildlife</h1>
   
   <h1>Hi! I'm Jesse, a student from Year Up Chicago. Marine Biology is one of my interests.</h1>
@@ -68,7 +88,21 @@
       <li><a href="#">My Vison</a></li>
       <li><a href="#">Resources</a></li>
     </ul>
-  <input type="email" placeholder="Your email">
-  <input type="submit">
+    <a href="https://oceanservice.noaa.gov/facts/coral-overfishing.html">
+ <div class="Marinelife">
   <p>With the rising and pollution and overfishing, many species of sea life are slowly going extinct! Join me in helping protecting our waters.</p>
+  </div></a>
+  <br>
+      <a href="http://marinebio.org/oceans/creatures/">
+        <div class="Conservation">
+        <p>Our efforts and plans to protect marine wildlife.</p>
+        </div></a>
+  <br>
+  <a href="http://marinebio.org/oceans/conservation/organizations/">
+  <div class="Resources">
+        <p>Check out our resources</p>
+  </div></a>
+  <br>
+     <input type="email" placeholder="Your email">
+  <input type="submit">
 </body>
